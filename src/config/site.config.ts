@@ -10,6 +10,6 @@ export const siteConfig = {
     github: "https://github.com/jaish21",
     linkedin: "https://linkedin.com/in/jaya-aishwarya-28820663",
     bloomNotes: "https://bloom-ai-rho.vercel.app/",
-    resume: "/Jaya-Aishwarya-Resume.pdf",
+    resume: "/Jaya_Aishwarya_Resume.pdf",
   },
 };
