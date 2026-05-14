@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     title: `${siteConfig.name} | Software Engineer ||`,
     description:
       "Software engineer specializing in React, TypeScript, frontend architecture, performance optimization, and scalable product engineering.",
-    url: "https://YOUR_DOMAIN.com",
+    url: "https://portfolio-lemon-tau-exng2nc4f4.vercel.app/",
     siteName: siteConfig.name,
     type: "website",
     images: [
