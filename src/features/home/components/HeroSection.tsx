@@ -10,17 +10,18 @@ export function HeroSection() {
     <Section className="relative overflow-hidden py-0" id="home">
       <div className="pointer-events-none absolute right-10 top-20 -z-10 h-64 w-64 rounded-full bg-[#5b2a86]/10 blur-3xl dark:bg-[#c084fc]/12" />
 
-      <Container className="grid items-center gap-12 py-20 md:grid-cols-[1.2fr_0.8fr] lg:py-24">
+      <Container className="grid items-center gap-12 py-8 md:py-16 md:grid-cols-[1.2fr_0.8fr] lg:py-24">
         <FadeIn>
           <div className="max-w-3xl">
             <p className="mb-4 text-sm font-medium text-[#6b5a74] dark:text-[#cbb8d9]">
-              Software Engineer || · React · TypeScript
+              Software Engineer II · React · TypeScript
             </p>
 
             <h1 className="text-4xl font-bold tracking-tight text-[#17131c] dark:text-white md:text-6xl">
-              Hi, I’m Jaya. I build thoughtful{" "}
+              Hi, I’m Jaya.
+              <br />I build performant{" "}
               <span className="text-[#5b2a86] dark:text-[#d8b4fe]">
-                frontend experiences
+                frontend applications
               </span>{" "}
               at scale.
             </h1>

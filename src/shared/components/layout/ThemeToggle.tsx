@@ -30,10 +30,12 @@ export function ThemeToggle() {
       type="button"
       onClick={() => setIsDark((value) => !value)}
       aria-label="Toggle theme"
-      className="flex h-10 items-center gap-2 rounded-full border border-[#e8dde9]/80 bg-[#f8f5f9]/70 px-4 text-sm font-medium text-[#2d2235] backdrop-blur-md transition hover:border-[#5b2a86] hover:bg-[#f2e8f8]/80 dark:border-[#4a3957] dark:bg-[#241b2c]/80 dark:text-[#e9dff0] dark:hover:border-[#d8b4fe] dark:hover:bg-[#c084fc]/10"
+      className="flex h-9 w-9 items-center justify-center rounded-full border border-[#e8dde9]/80 bg-[#f8f5f9]/70 text-[#2d2235] backdrop-blur-md transition hover:border-[#5b2a86] hover:bg-[#f2e8f8]/80 dark:border-[#4a3957] dark:bg-[#241b2c]/80 dark:text-[#e9dff0] dark:hover:border-[#d8b4fe] dark:hover:bg-[#c084fc]/10 sm:w-auto sm:px-4"
     >
       {isDark ? <Sun size={16} /> : <Moon size={16} />}
-      {isDark ? "Light Mode" : "Dark Mode"}
+      <span className="ml-2 hidden sm:inline">
+        {isDark ? "Light Mode" : "Dark Mode"}
+      </span>
     </button>
   );
 }

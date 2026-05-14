@@ -18,6 +18,20 @@ html {
   scroll-behavior: smooth;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+  letter-spacing: -0.03em;
+}
+
+section {
+  scroll-margin-top: 100px;
+}
+
 body {
   background:
     radial-gradient(
@@ -27,7 +41,10 @@ body {
     ),
     #f8f5f9;
   color: #17131c;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 .dark body {
