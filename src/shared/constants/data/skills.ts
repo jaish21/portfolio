@@ -1,0 +1,65 @@
+import { SkillGroup } from "@/shared/types/data";
+
+export const skillGroups: SkillGroup[] = [
+  {
+    title: "Frontend Engineering",
+    skills: [
+      "React",
+      "TypeScript",
+      "JavaScript",
+      "Next.js",
+      "React Native",
+      "Redux",
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS",
+    ],
+  },
+  {
+    title: "Architecture & Performance",
+    skills: [
+      "SPA Architecture",
+      "State Management",
+      "Design Systems",
+      "Component Libraries",
+      "Accessibility",
+      "Performance Optimization",
+      "Route-based Code Splitting",
+      "React Profiler",
+      "Lighthouse",
+      "Webpack",
+      "Vite",
+    ],
+  },
+  {
+    title: "Testing & Reliability",
+    skills: [
+      "Playwright",
+      "Jest",
+      "React Testing Library",
+      "WebdriverIO",
+      "Selenium",
+      "Mocha",
+      "E2E Testing",
+      "Test Automation",
+    ],
+  },
+  {
+    title: "Backend, DevOps & Tooling",
+    skills: [
+      "Python",
+      "Django",
+      "REST APIs",
+      "MongoDB",
+      "Git",
+      "Docker",
+      "Jenkins",
+      "Buildkite",
+      "GitHub Actions",
+      "AWS Basics",
+      "Sentry",
+      "Datadog",
+      "LogRocket",
+    ],
+  },
+];
